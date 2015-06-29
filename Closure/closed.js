@@ -1,7 +1,11 @@
 function closing(){
 	var text = "Hello";
-	return text;
+	function enclosed(){
+		text += "sdf";
+		return text;
+	}
+	return enclosed();
 }
 
-console.log(text); // ReferenceError: text is not defined
+//console.log(text); // ReferenceError: text is not defined
 console.log(closing()); // Hello
