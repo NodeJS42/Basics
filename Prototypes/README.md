@@ -13,4 +13,9 @@ var acdc = {
 
 > Note that you can use any string as the property name (even ''), and that the quotes around the name are optional if you choose a *legal* Javascript name (for more on that : http://www.codelifter.com/main/tips/tip_020.shtml ).
 
-Objects are **never copied**, they are passed by *reference*. 
+Objects are **never copied**, they are passed by *reference*.
+
+You can read [W3School Tutorial](http://www.w3schools.com/js/js_object_prototypes.asp) to learn more about prototypes.
+
+Case Use Examples : adding a property to an object (future inheriting objects w
+
