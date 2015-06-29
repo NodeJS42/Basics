@@ -38,4 +38,6 @@ function closing(){
 console.log(closing()); // Hello
 ```
 
+> A function doesn't have to return in order to be called a closure. **Simply accessing variables outside of your immediate lexical scope creates a closure.**
 
+This excerpt is taken from the excellent explanation you can find on [Stackoverflow](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work) on what a closure **exactly** is. There are several examples on this thread, and it is a **must-read**.
