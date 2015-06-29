@@ -2,7 +2,7 @@
 
 A closure wraps up an entire environment, binding necessary variables from other scopes.
 
-You can run [closed.js]() that runs this simple function :
+You can run [closed.js](https://raw.githubusercontent.com/NodeJS42/Basics/master/Closure/closed.js) that runs this simple function :
 ```javascript
 function closing(){
 	var text = "Hello";
