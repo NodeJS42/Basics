@@ -7,8 +7,15 @@ Quoting 'Javascript : The Good Parts' :
 
 There are different functions types.
 
-`function add3(a, b, c) { return a + b + c};` Will be executed as the program loads.
+`function add3(a, b, c) { return a + b + c};` will be executed as the program loads.
 
 On the contrary
 `var sum = function add3(a, b, c) { return a + b + c};` will be built **only** when this line of code is reached.
-Alternative syntax : `var sum = function(a, b, c) { return a + b + c};` > this is called an * ** anonymous function ** *.
+
+Alternative syntax : `var sum = function(a, b, c) { return a + b + c};` > this is called an *anonymous function*.
+
+A variable holding a function can be passed onto other functions :
+
+```javascript
+sum(1, 2 , sum(54,48,87)); // 192 
+```
